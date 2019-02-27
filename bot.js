@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '*'
+const prefix = '#'
  
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`اول بوت برودكاست عربي متكامل عام |*help`,"http://twitch.tv/S-F")
+client.user.setGame(` #bc |FalconCommunity`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -28,7 +28,7 @@ client.user.setGame(`اول بوت برودكاست عربي متكامل عام
   console.log('')
 });
 
-const developers = ["388814944050741257"];
+const developers = ["546264787026444289"];
 
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
